@@ -9,6 +9,10 @@ on:
   watch:
     types: [started]
 
+# Add permissions configuration
+permissions:
+  contents: write
+
 jobs:
   build:
     runs-on: ubuntu-latest
